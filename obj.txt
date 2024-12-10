@@ -1,0 +1,48 @@
+
+
+function App() {
+  const title = 'Hello react ...';
+  const h = 'Hello Home';
+  {/* multiple time use title and h variable in this program... */ }
+  
+  const obj = {
+    t: 'Title react....',
+    h: 'Hello react...',
+    c1: 'Java...',
+    c2: 'Python...',
+    ar:['hello',90,'Grade A',true],
+  }
+
+  {/* multiple time use object in this program... */ }
+  const style = {
+    fontSize: '40px',
+    fontFace:'sans-serif',
+  }
+  // style in object
+  return (
+    <>
+      <h1>Variable {title}</h1>
+      <p>{title}</p>
+      <h1>{h}</h1>
+      <p>{h}</p>
+      {/* multiple time use title and h variable in this program... */}
+
+      <h1 style={{color:'gray'}}>Object {obj.t}</h1>
+      <p style={{ color: 'gray' }}>{obj.t}</p>
+      <h1>{obj.h}</h1>
+
+      <p style={style}>{obj.h}</p>
+      <p style={style}>{obj.c1}</p>
+      {/* style object used */}
+
+      <p>{obj.c2}</p>
+      <h1>{obj.ar.join(' - ')}</h1>
+      {/* multiple time use object in this program... */}
+
+      <h3> {JSON.stringify(obj)} </h3>
+      {/* print all value of object in together... */}
+    </>
+  );
+}
+
+export default App;

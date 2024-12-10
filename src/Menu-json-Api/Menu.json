@@ -1,0 +1,38 @@
+[
+    {
+        "label":"Learn",
+        "link":"/learn",
+        "isDropDown":false
+    },
+    {
+        "label":"Reference",
+        "link":"/reference",
+        "isDropDown":false
+    },
+    {
+        "label":"Community",
+        "link":"/community",
+        "isDropDown":true
+        
+    },
+    {
+        "label":"Blog",
+        "link":"/blog",
+        "isDropDown":false
+    }, 
+    {
+        "label":"B1",
+        "link":"/blog",
+        "isDropDown":false
+    },
+    {
+        "label":"B2",
+        "link":"/blog",
+        "isDropDown":false
+    },
+    {
+        "label":"B3",
+        "link":"/blog",
+        "isDropDown":false
+    }
+]

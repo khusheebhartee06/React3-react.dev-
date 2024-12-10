@@ -1,0 +1,29 @@
+.Homebanner{
+    background-color: #23272F;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 110px 0px 144px 0px;
+    border-bottom: 1px solid #2D2F33;
+}
+.Homebanner h1{
+    font-size: 55px;
+}
+.Homebanner button{
+    padding:8px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+.Homebanner #btn1{
+    background-color: #58c4dc;
+    color: #404756;
+    border: none;
+}
+.Homebanner #btn2{
+    background-color: transparent;
+    border: 1px solid #404756;
+    color: white;
+}
+.Homebanner #btn2:hover{
+    background-color: #252932;
+}
